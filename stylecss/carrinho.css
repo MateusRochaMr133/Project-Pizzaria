@@ -1,0 +1,94 @@
+.carrinho {
+    background-color: var(--preset--color--baby-blue);
+    padding: 10px;
+    width: 380px;
+    height: 400px;
+    gap: 10px;
+}
+
+
+.carrinho__tx-tx--titulo {
+    font-family: "InterBold";
+    font-size: 24px;
+}
+
+.carrinho__item {
+    border-top: 1px solid var(--preset--color--black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.carrinho_item--item-preço {
+   
+}
+
+.carrinho__img {
+    width: 72px;
+    height: 70px;
+}
+
+.carrinho__tx {
+    font-family: "InterRegular";
+    font-size: 16px;
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.carrinho__qtd-controle {
+    border-radius: 20px;
+    background-color: var(--preset--color--dark-gray);
+    padding: 8px;
+}
+
+.carrinho__calculos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carrinho__txx {
+    border-top: 1px solid var(--preset--color--blue);
+    display: flex;
+    justify-content: space-around;
+}
+
+.carrinho__tx-tx--item  {
+    width: 215px;
+    height: 80px;
+    color: var(--preset--color--blue);
+    font-family: "InterBold";
+    font-size: 24px;
+    
+}
+
+.carrinho__tx-tx--valor {
+    color: var(--preset--color--black);
+    font-family: "InterLight";
+    font-size: 24px; 
+}
+
+.carrinho__tx-tx--total {
+    font-family: "InterBold";
+    font-size: 28px;
+    stroke: black;
+}
+
+.carrinho__tx-tx--valor-total {
+    font-family: "InterLight";
+    font-size: 24px;
+}
+
+.carrinho__btn_button {
+    text-align: center;
+    margin: 20px;
+}
+
+.carrinho__btn-btn--finalizar-compra {
+    color: var(--preset--color--white);
+    background-color: var(--preset--color--green);
+    padding: 20px 80px;
+    border-radius: 20px;
+    border: 6px solid var(--preset--color--green);
+}

@@ -1,17 +1,4 @@
-:root {
-    --preset--text-transform: uppercase; 
-    --preset--color--black: #000000;
-    --preset--color--dark-gray: #D9D9D9;
-    --preset--color--light-gray: #EEEEEE;
-    --preset--color--white: #ffffff;
-    --preset--color--baby-blue: #E5F4FF;
-    --preset--color--blue: #1298F8;
-    --preset--color--green: #48D05F; 
-    --preset--color--red: #E92929; 
-}
-
 /* Topo - Header */
-
 .topo {
     font-size: 1.5rem;
     height: 136px;

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./stylecss/carrinho.css">
     <link rel="stylesheet" href="./stylecss/style.css">
     <link rel="stylesheet" href="./stylecss/style01.css">
+    <link rel="stylesheet" href="">
     <script src="https://kit.fontawesome.com/54169e989a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -21,7 +22,7 @@
 
     <main class="conteudo">
         <section class="pizzas-cards">
-            
+
             <div class="pizzas-cards__item">
                 <img src="./img/img-produto01.png" alt="" class="pizzas-cards__img">
                 <a class="pizzas-cards__btn-add" href="#modal">
@@ -31,7 +32,7 @@
                 <span class="pizzas-cards__titulo">Muçarela G</span>
                 <p class="pizzas-cards__texto">Dois hamburguers, alface, queijo , molho....</p>
             </div>
-            
+
             <div class="pizzas-cards__item">
                 <img src="./img/img-produto01.png" alt="" class="pizzas-cards__img">
                 <a class="pizzas-cards__btn-add" href="#modal">
@@ -41,7 +42,7 @@
                 <span class="pizzas-cards__titulo">Muçarela G</span>
                 <p class="pizzas-cards__texto">Dois hamburguers, alface, queijo , molho....</p>
             </div>
-            
+
             <div class="pizzas-cards__item">
                 <img src="./img/img-produto01.png" alt="" class="pizzas-cards__img">
                 <a class="pizzas-cards__btn-add" href="#modal">
@@ -51,7 +52,7 @@
                 <span class="pizzas-cards__titulo">Muçarela G</span>
                 <p class="pizzas-cards__texto">Dois hamburguers, alface, queijo , molho....</p>
             </div>
-            
+
             <div class="pizzas-cards__item">
                 <img src="./img/img-produto01.png" alt="" class="pizzas-cards__img">
                 <a class="pizzas-cards__btn-add" href="#modal">
@@ -65,16 +66,44 @@
         </section>
 
         <aside class="carrinho">
-            <h1 class="carrinho__titulo">Suas Pizzas</h1>
+            <h1 class="carrinho__tx-tx--titulo">Suas Pizzas</h1>
             <div class="carrinho__item">
-                <img src="" alt="" class="carrinho__item-img">
-                <p class="carrrinho__item-descricao">Portuguesa (G)</p>
-                <p class="carrinho__item-preco">R$ 59,90</p>
-                <div class="carrrinho__qtd-controle">
-                    <button class="carrinho__item-adicionar">Adicionar ao Carrinho</button>
-                    <span class="carrinho__item-qtd"></span>
-                    <button class="carrinho__item-remover">Remover</button>
+                <img src="./img/img-produto01.png" alt="" class="carrinho__img">
+                <div class="carrinho_item--item-preço">
+                    <p class="carrinho__tx">Portuguesa (G)</p>
+                    <p class="carrinho__tx">R$ 59,90</p>
                 </div>
+                <div class="carrinho__qtd-controle">
+                    <button class="carrinho__btn btn--adicionar">
+                        <span class="fa-solid fa-plus"></span>
+                    </button>
+                    <span class="carrinho__qtd">1</span>
+                    <button class="carrinho__btn btn--remover">
+                        <span class="fa-solid fa-minus"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="carrinho__calculos">
+                <div class="carrinho__txx">
+                    <p class="carrinho__tx-tx--item">Subtotal:</p>
+                    <span class="carrinho__tx-tx--valor">R$99,99</span>
+                </div>
+
+                <div class="carrinho__txx">
+                    <p class="carrinho__tx-tx--item">Desconto (10%)</p>
+                    <span class="carrinho__tx-tx--valor">R$99,99</span>
+                </div>
+
+                <div class="carrinho__txx">
+                    <p class="carrinho__tx-tx--total">Valor Total:</p>
+                    <span class="carrinho__tx-tx--valor-total">R$99,99</span>
+                </div>
+
+                <div class="carrinho__btn_button">
+                    <button class="carrinho__btn-btn--finalizar-compra">Finalizar a Compra</button>
+                </div>
+
             </div>
         </aside>
     </main>
