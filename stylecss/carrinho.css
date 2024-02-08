@@ -2,12 +2,13 @@
     background-color: var(--preset--color--baby-blue);
     padding: 10px;
     width: 380px;
-    height: 1450px;
+    flex-direction: column;
     gap: 10px;
     border-radius: 20px;
     visibility: hidden;
     position: absolute;
-    background-color: rgba(65, 64, 64, 0.4);
+    background-color: var(--preset--color--baby-blue);
+    box-sizing: border-box;
 }
 
 .carrinho:target{
@@ -35,11 +36,11 @@
     height: 70px;
 }
 
-.carrinho__tx {
+/* .carrinho__tx {
     font-family: "InterRegular";
     font-size: 16px;
     flex-direction: column;
-}
+} */
 
 .carrinho__qtd-controle {
     border-radius: 20px;
@@ -66,7 +67,6 @@
     color: var(--preset--color--blue);
     font-family: "InterBold";
     font-size: 24px;
-    
 }
 
 .carrinho__tx-tx--valor {
@@ -97,4 +97,8 @@
     padding: 20px 80px;
     border-radius: 20px;
     border: 6px solid var(--preset--color--green);
+}
+
+.carrinho__btn {
+    border: none;
 }
